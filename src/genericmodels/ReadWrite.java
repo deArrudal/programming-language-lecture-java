@@ -65,9 +65,9 @@ public class ReadWrite {
 
             while (scan.hasNextLine()) {
                 String line = scan.nextLine();
-                String[] sliptline = line.split("\\t");
-                ids.add(sliptline[0].trim());
-                values.add(sliptline[1].trim());
+                String[] splitline = line.split("\\t");
+                ids.add(splitline[0].trim());
+                values.add(splitline[1].trim());
             }
 
             scan.close();
